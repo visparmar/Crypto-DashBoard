@@ -1,12 +1,21 @@
+
 .container{
     
-
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 200px;
+    font-size: large;
+    font-weight: bolder;
+    
    
+}
+html{
+    border: 2px solid rgb(229, 240, 108);
+    background-color: rgb(231, 246, 94);
+    font-family: 'Roboto Mono', monospace;
 }
 
 .crypto-table{
@@ -19,6 +28,9 @@
 
    
  
+}
+.price-change{
+color: red;
 }
 img{
     height: 20px;

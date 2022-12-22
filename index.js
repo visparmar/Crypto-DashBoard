@@ -38,7 +38,7 @@ function buildTable(data) {
                 <td>
                     ${data[i].current_price}
                 </td>
-                <td>
+                <td class="price-change">
                     ${data[i].market_cap_change_24h}
 
                 </td>
