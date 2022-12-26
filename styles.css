@@ -9,12 +9,45 @@
     height: 200px;
     font-size: large;
     font-weight: bolder;
+ background-color: yellow;
     
    
 }
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);}
+    100%{
+        transform: rotate(360deg);}
+  }
+
+.loding{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 99999999;
+}
+
+
+
+.spin{
+       
+    height: 3%;
+    width: 1.5%;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-top: 5px solid white;
+    animation: spin 2s linear infinite;
+    
+
+}
 html{
-    border: 2px solid rgb(229, 240, 108);
-    background-color: rgb(231, 246, 94);
+    
+   
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -24,6 +57,7 @@ html{
     justify-content: center;
     align-items: center;
     height: auto;
+    background-color: yellow;
     
 
    
