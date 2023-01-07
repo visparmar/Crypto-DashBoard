@@ -7,7 +7,7 @@ const fetchCryptoDetail = async () => {
         document.getElementById("div2").style.visibility = "hidden"
         var jioo= document.querySelector('.loding').style.display='flex';
         const response = await fetch(url, {
-            method: "GET"
+            method: "GET" 
 
         });
 
